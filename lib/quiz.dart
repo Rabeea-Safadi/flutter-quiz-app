@@ -40,7 +40,7 @@ class _QuizState extends State<Quiz> {
     selectedAnswers.clear();
 
     setState(() {
-      activeScreen = StartScreen(switchScreen);
+      activeScreen = QuestionsScreen(onSelectAnswer: chooseAnswer);
     });
   }
 
