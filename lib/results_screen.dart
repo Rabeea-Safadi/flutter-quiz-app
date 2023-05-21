@@ -59,7 +59,7 @@ class ResultsScreen extends StatelessWidget {
                 onPressed: restartQuiz,
                 child: TextButton.icon(
                   label: const Text('Restart Quiz!'),
-                  icon: const Icon(Icons.restart_alt),
+                  icon: const Icon(Icons.refresh),
                   onPressed: restartQuiz,
                   style: const ButtonStyle(
                     foregroundColor: MaterialStatePropertyAll(Colors.white),
